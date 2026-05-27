@@ -1,0 +1,17 @@
+@model Category
+
+<main>
+    <div class="container mt-5" style="margin-right:100px">
+        <div class="alert alert-danger" role="alert">
+            <h4 class="alert-heading">Delete Category</h4>
+            <p>Are you sure you want to delete <strong>@Model.Name</strong>?</p>
+            <hr>
+            <p class="mb-0">This action cannot be undone.</p>
+        </div>
+
+        <form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</main>

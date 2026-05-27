@@ -1,0 +1,156 @@
+@model StudentDetailVM
+@{
+    ViewData["Title"] = "Student Detail";
+}
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <!-- Header Card -->
+            <div class="card border-0 shadow-lg mb-4" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <div class="card-body text-white p-5">
+                    <h1 class="card-title mb-2">@Model.Name @Model.Surname</h1>
+                    <p class="card-text opacity-75 mb-0">Student ID: #@Model.Id</p>
+                </div>
+            </div>
+
+            <!-- Details Grid -->
+            <div class="card border-0 shadow-sm mb-4">
+                <div class="card-body">
+                    <div class="row">
+                        <!-- Left Column -->
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-start">
+                                <div class="icon-circle bg-primary bg-opacity-10 rounded-circle p-3 me-3">
+                                    <i class="fas fa-birthday-cake text-primary"></i>
+                                </div>
+                                <div>
+                                    <p class="text-muted small mb-1">Age</p>
+                                    <h5 class="mb-0">@Model.Age years</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-start">
+                                <div class="icon-circle bg-success bg-opacity-10 rounded-circle p-3 me-3">
+                                    <i class="fas fa-graduation-cap text-success"></i>
+                                </div>
+                                <div>
+                                    <p class="text-muted small mb-1">Grade</p>
+                                    <h5 class="mb-0">@Model.Grade</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left Column -->
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-start">
+                                <div class="icon-circle bg-info bg-opacity-10 rounded-circle p-3 me-3">
+                                    <i class="fas fa-book text-info"></i>
+                                </div>
+                                <div>
+                                    <p class="text-muted small mb-1">Group</p>
+                                    <h5 class="mb-0">@Model.Group</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="col-md-6 mb-4">
+                            <div class="d-flex align-items-start">
+                                <div class="icon-circle bg-warning bg-opacity-10 rounded-circle p-3 me-3">
+                                    <i class="fas fa-building text-warning"></i>
+                                </div>
+                                <div>
+                                    <p class="text-muted small mb-1">Faculty</p>
+                                    <h5 class="mb-0">@Model.Faculty</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="card border-0 shadow-sm mb-4">
+                <div class="card-header bg-white border-bottom">
+                    <h5 class="mb-0 d-flex align-items-center">
+                        <i class="fas fa-address-card text-primary me-2"></i>
+                        Contact Information
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label text-muted small">Email</label>
+                            <p class="mb-0">
+                                <a href="mailto:@Model.Email" class="text-decoration-none">
+                                    <i class="fas fa-envelope me-2 text-danger"></i>@Model.Email
+                                </a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label text-muted small">Phone</label>
+                            <p class="mb-0">
+                                <a href="tel:@Model.Phone" class="text-decoration-none">
+                                    <i class="fas fa-phone me-2 text-success"></i>@Model.Phone
+                                </a>
+                            </p>
+                        </div>
+
+                        <div class="col-12 mb-0">
+                            <label class="form-label text-muted small">Address</label>
+                            <p class="mb-0">
+                                <i class="fas fa-map-marker-alt me-2 text-info"></i>@Model.Address
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="d-flex gap-2 mb-4">
+                <a href="@Url.Action("Index")" class="btn btn-outline-secondary">
+                    <i class="fas fa-arrow-left me-2"></i>Back to List
+                </a>
+                <a href="@Url.Action("Edit", new { id = Model.Id })" class="btn btn-primary">
+                    <i class="fas fa-edit me-2"></i>Edit
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .icon-circle {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    }
+
+    .btn {
+        padding: 0.5rem 1.5rem;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    }
+</style>

@@ -1,0 +1,14 @@
+﻿@using MVC_Fiorella.Models
+@using MVC_Fiorella.ViewComponents
+@model SliderVMVC
+
+@if (Model?.Sliders != null && Model.Sliders.Any())
+{
+    @foreach (var item in Model.Sliders)
+    {
+    }
+}
+else
+{
+    <p>Göstəriləcək slider tapılmadı.</p>
+}

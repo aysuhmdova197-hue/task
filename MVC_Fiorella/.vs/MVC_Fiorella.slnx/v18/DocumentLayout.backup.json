@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|c:\\users\\aysu\\onedrive\\desktop\\vie\u00FC model\\mvc_fiorella\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|c:\\users\\aysu\\onedrive\\desktop\\vie\u00FC model\\mvc_fiorella\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|c:\\users\\aysu\\onedrive\\desktop\\vie\u00FC model\\mvc_fiorella\\areas\\admin\\views\\shared\\components\\slider\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|solutionrelative:areas\\admin\\views\\shared\\components\\slider\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|c:\\users\\aysu\\onedrive\\desktop\\vie\u00FC model\\mvc_fiorella\\mvc_fiorella.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|solutionrelative:mvc_fiorella.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|c:\\users\\aysu\\onedrive\\desktop\\vie\u00FC model\\mvc_fiorella\\viewcomponents\\sliderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|solutionrelative:viewcomponents\\sliderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|c:\\users\\aysu\\onedrive\\desktop\\vie\u00FC model\\mvc_fiorella\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|c:\\users\\aysu\\onedrive\\desktop\\vie\u00FC model\\mvc_fiorella\\migrations\\20260525062956_updatedecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|solutionrelative:migrations\\20260525062956_updatedecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|c:\\users\\aysu\\onedrive\\desktop\\vie\u00FC model\\mvc_fiorella\\migrations\\20260525071649_createtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|solutionrelative:migrations\\20260525071649_createtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|c:\\users\\aysu\\onedrive\\desktop\\vie\u00FC model\\mvc_fiorella\\migrations\\20260526224802_createfiloreela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{471ACAF6-098F-6AC5-8A31-4C0631C39CA5}|MVC_Fiorella.csproj|solutionrelative:migrations\\20260526224802_createfiloreela.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-25T06:20:29.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260526224802_CreateFiloreela.cs",
+              "DocumentMoniker": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Migrations\\20260526224802_CreateFiloreela.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260526224802_CreateFiloreela.cs",
+              "ToolTip": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Migrations\\20260526224802_CreateFiloreela.cs",
+              "RelativeToolTip": "Migrations\\20260526224802_CreateFiloreela.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T22:48:02.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T06:26:18.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260525071649_CreateTable.cs",
+              "DocumentMoniker": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Migrations\\20260525071649_CreateTable.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260525071649_CreateTable.cs",
+              "ToolTip": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Migrations\\20260525071649_CreateTable.cs",
+              "RelativeToolTip": "Migrations\\20260525071649_CreateTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T07:16:49.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Areas\\Admin\\Views\\Shared\\Components\\Slider\\Default.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\Components\\Slider\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Areas\\Admin\\Views\\Shared\\Components\\Slider\\Default.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\Components\\Slider\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-25T07:03:01.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MVC_Fiorella.csproj",
+              "DocumentMoniker": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\MVC_Fiorella.csproj",
+              "RelativeDocumentMoniker": "MVC_Fiorella.csproj",
+              "ToolTip": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\MVC_Fiorella.csproj",
+              "RelativeToolTip": "MVC_Fiorella.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-25T06:55:07.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SliderViewComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\ViewComponents\\SliderViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\SliderViewComponent.cs",
+              "ToolTip": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\ViewComponents\\SliderViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\SliderViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T06:52:01.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260525062956_UpdateDecimal.cs",
+              "DocumentMoniker": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Migrations\\20260525062956_UpdateDecimal.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260525062956_UpdateDecimal.cs",
+              "ToolTip": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Migrations\\20260525062956_UpdateDecimal.cs",
+              "RelativeToolTip": "Migrations\\20260525062956_UpdateDecimal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T06:29:57.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Aysu\\OneDrive\\Desktop\\vie\u00FC model\\MVC_Fiorella\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T06:28:45.547Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

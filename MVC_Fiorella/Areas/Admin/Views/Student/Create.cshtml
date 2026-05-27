@@ -1,0 +1,62 @@
+﻿@model StudentCreateVM
+@{
+    ViewData["Title"] = "Create";
+}
+
+<main>
+    <div class="conatiner" mt-5 style="margin-right:100px">
+        <form asp-action="Create" method="post">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" asp-for="Name" class="form-label">Enter name </label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" asp-for="Name">
+                <span asp-validation-for="Name" class="text-danger"></span>
+
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" asp-for="Surname" class="form-label">Enter surname </label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" asp-for="Surname">
+                <span asp-validation-for="Surname" class="text-danger"></span>
+
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" asp-for="Age" class="form-label">Enter age </label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" asp-for="Age">
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" asp-for="Email" class="form-label">Enter email </label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" asp-for="Email">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" asp-for="Address" class="form-label">Enter address </label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" asp-for="Address">
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" asp-for="Group" class="form-label">Enter group </label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" asp-for="Group">
+                <span asp-validation-for="Group" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" asp-for="Phone" class="form-label">Enter phone </label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" asp-for="Phone">
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" asp-for="Grade" class="form-label"> Enter grade </label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" asp-for="Grade">
+                <span asp-validation-for="Grade" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" asp-for="Faculty" class="form-label">Enter faculty </label>
+                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" asp-for="Faculty">
+                <span asp-validation-for="Faculty" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-success">Create</button>
+        </form>
+    </div>
+</main>
+
+            

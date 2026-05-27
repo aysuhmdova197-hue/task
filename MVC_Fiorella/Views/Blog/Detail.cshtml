@@ -1,0 +1,139 @@
+@model Blog
+
+<!-- BLOG DETAIL START -->
+<section id="blog-detail" class="py-5">
+    <div class="container">
+        <!-- Header -->
+        <div class="row mb-5">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="blog-header">
+                    <h1 class="mb-3 fw-bold">@Model.Title</h1>
+                    <div class="meta-info d-flex justify-content-between align-items-center mb-4">
+                        <span class="text-muted">
+                            <i class="fas fa-calendar"></i> @Model.CreatedDate.ToString("MMMM dd, yyyy")
+                        </span>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Image Gallery -->
+        <div class="row mb-5">
+            <div class="col-lg-8 offset-lg-2">
+                <div id="blogCarousel" class="carousel slide shadow-lg rounded" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        @{
+                            var images = Model.BlogImages.ToList();
+                            for (int i = 0; i < images.Count; i++)
+                            {
+                                <div class="carousel-item @(i == 0 ? "active" : "")">
+                                    <img src="~/assets/img/@images[i].Image" class="d-block w-100 rounded" alt="Blog image" style="height: 500px; object-fit: cover;">
+                                </div>
+                            }
+                        }
+                    </div>
+                    @if (images.Count > 1)
+                    {
+                        <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#blogCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    }
+                </div>
+
+                <!-- Thumbnail Gallery -->
+                @if (images.Count > 1)
+                {
+                    <div class="row mt-3 g-2">
+                        @foreach (var img in images)
+                        {
+                            <div class="col-md-3">
+                                <div class="thumbnail-item cursor-pointer" onclick="$('#blogCarousel').carousel('@images.IndexOf(img)')">
+                                    <img src="~/assets/img/@img.Image" class="img-fluid rounded" alt="Thumbnail" style="height: 100px; object-fit: cover; cursor: pointer; transition: transform 0.3s ease;">
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="blog-content">
+                    <p class="lead text-black-50 mb-4">@Model.Description</p>
+                </div>
+
+                <!-- Back Button -->
+                <div class="mt-5">
+                    <a href="@Url.Action("Index")" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left"></i> Back to Blog
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- BLOG DETAIL END -->
+
+<style>
+    #blog-detail {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        min-height: 100vh;
+    }
+
+    .blog-header h1 {
+        color: #2c3e50;
+        border-bottom: 3px solid #e74c3c;
+        padding-bottom: 15px;
+    }
+
+    .carousel-inner img {
+        transition: transform 0.5s ease;
+    }
+
+    .carousel:hover img {
+        transform: scale(1.02);
+    }
+
+    .thumbnail-item img {
+        border: 2px solid transparent;
+        transition: all 0.3s ease;
+    }
+
+    .thumbnail-item img:hover {
+        border-color: #e74c3c;
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .blog-content p {
+        line-height: 1.8;
+        font-size: 16px;
+    }
+
+    .meta-info {
+        font-size: 14px;
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #e74c3c;
+        border-color: #e74c3c;
+    }
+
+    @@media (max-width: 768px) {
+        .carousel-inner img {
+            height: 300px !important;
+        }
+
+        #blog-detail {
+            padding-top: 20px;
+        }
+    }
+</style>
